@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Pyper"
-version = "0.0.2"
+version = "0.0.3"
 description = "Python packaging lib for the minimalists."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -75,7 +75,7 @@ show_missing = true
 fail_under = 20
 
 [tool.bumpver]
-current_version = "0.0.2"
+current_version = "0.0.3"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "Bump version {old_version} -> {new_version}"
 commit = true
