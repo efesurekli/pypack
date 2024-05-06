@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.1.3
+    hooks:
+      - id: ruff
+        name: ruff
+      - id: ruff-format
+        name: ruff-format
+  - repo: local
+    hooks:
+      - id: pytest-check
+        name: pytest-check
+        entry: pytest tests --ignore=tests/integration
+        language: system
+        pass_filenames: false
+        always_run: true
