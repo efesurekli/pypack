@@ -10,13 +10,13 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 maintainers = [
-    { name = "SecondLaw Research", email = "efe@2lw.ai" },
-    { name = "SecondLaw Research", email = "murat@2lw.ai" },
+  { name = "SecondLaw Research", email = "efe@2lw.ai" },
+  { name = "SecondLaw Research", email = "murat@2lw.ai" },
 ]
 classifiers = [
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
 ]
 keywords = ["packaging", "minimalist", "python"]
 dependencies = ["base58"]
@@ -83,5 +83,5 @@ tag = true
 push = false
 
 [tool.bumpver.file_patterns]
-"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"pyproject.toml" = ['^version = "{version}"', '^current_version = "{version}"']
 "README.md" = ["{version}", "{pep440_version}"]
