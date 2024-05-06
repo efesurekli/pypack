@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Pyper"
-dynamic = ["version"]
+version = '0.0.0'
 description = "Python packaging lib for the minimalists."
 readme = "README.md"
 requires-python = ">=3.10"
