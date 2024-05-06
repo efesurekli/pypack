@@ -1,5 +1,4 @@
 import base58
-import random
 from time import time
 
 
